@@ -1,4 +1,5 @@
 Clon de la pagina de pigmento.
+Para ver la tabla editar el README
 
 ¿Es extensión de  |           Componente    |           ¿Qué le falta?    |       Nombre de         |             Descripción del
 Comp. Nativo?     |                         |                             |     referencia          |          comportamiento
