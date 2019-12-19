@@ -1,0 +1,13 @@
+{
+    "header.full": {
+    "blocks": [
+      "login",
+      "minicart",
+      "logo",
+      "search-bar",
+      "menu-link",
+      "telemarketing",
+      "category-menu"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result"
+    ],
+    "props": {
+        "context": {
+           "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "skusFilter": "FIRST_AVAILABLE"
+        }
+     }
+  },
+ "store.search#category": {
+    "blocks": [
+      "search-result"
+    ],
+    "props": {
+        "context": {
+           "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "skusFilter": "FIRST_AVAILABLE"
+        }
+     }
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result"
+    ],
+    "props": {
+        "context": {
+           "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "skusFilter": "FIRST_AVAILABLE"
+        }
+     }
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result"
+    ],
+    "props": {
+        "context": {
+           "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "skusFilter": "FIRST_AVAILABLE"
+        }
+     }
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result"
+    ],
+    "props": {
+        "context": {
+           "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "skusFilter": "FIRST_AVAILABLE"
+        }
+     }
+  }
+}

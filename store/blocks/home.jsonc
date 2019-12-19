@@ -1,0 +1,173 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#h1",
+      "slider-layout#home",
+      "flex-layout.row",
+      "flex-layout.row#1",
+      "flex-layout.row#2",
+      "flex-layout.row#3",
+      "flex-layout.row#mediosPago"
+    ]
+  },
+  "flex-layout.row#h1":{
+    "children": [
+      "rich-text#h1",
+      "rich-text#login"
+    ],
+    "props": {
+      "horizontalAlign": "right",
+      "block-class": "h1"
+    }
+  },
+  "rich-text#h1": {
+    "props":{
+      "text": "¡Retira en tienda! Y ahorra el costo de envio."
+    }
+  },
+  "rich-text#login": {
+    "props":{
+      "text": "REGISTRATE | INGRESA"
+    }
+  },
+  "slider-layout#home": {
+    "children": ["image#1", "image#2"],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "itemsPerPage":{
+      "desktop": 1,
+       "tablet": 1,
+       "phone": 1
+      }
+    }
+  },
+  "image#1": {
+    "props": {
+      "src": "https://perfumeriaspigmento.com.ar/media/wysiwyg/Banners/Home/Navidad2019/bannerbelleza2.jpg"
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "https://perfumeriaspigmento.com.ar/media/wysiwyg/Banners/Home/Navidad2019/2_CON_PRODUCTOS_copia.png"
+    }
+  },
+
+  "flex-layout.row":{
+    "children": [
+      "image#rethink",
+      "shelf#deletar"
+    ]
+  },
+  
+ "image#rethink": {
+    "props": {
+      "src": "https://perfumeriaspigmento.com.ar/media/wysiwyg/Banners/Home/Navidad2019/CAT_SETSFRAGANCIAS.png"
+    }
+  },
+  
+  "shelf#deletar": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "category": 3,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Destacados del Mes"
+      }
+    }
+  },
+  
+  "product-summary": {
+  "props": {
+    "isOneClickBuy": false,
+    "showBadge": true,
+    "badgeText": "OFF",
+    "displayBuyButton": "displayButtonHover",
+    "showCollections": false,
+    "showListPrice": true,
+    "showLabels": false,
+    "showInstallments": true,
+    "showSavings": true
+  }
+  },
+  "flex-layout.row#1":{
+    "children": [
+      "image#rethink1",
+      "shelf#deletar"
+    ]
+  },
+  "flex-layout.row#2":{
+    "children": [
+      "image#rethink2",
+      "shelf#deletar"
+    ]
+  },
+  "flex-layout.row#3":{
+    "children": [
+      "image#rethink3",
+      "shelf#deletar"
+    ]
+  },
+  "image#rethink1": {
+    "props": {
+      "src": "https://perfumeriaspigmento.com.ar/media/wysiwyg/Banners/Home/Navidad2019/CAT_FRAGANCIAS.png"
+    }
+  },
+  "image#rethink2": {
+    "props": {
+      "src": "https://perfumeriaspigmento.com.ar/media/wysiwyg/Banners/Home/Navidad2019/CAT_COSMETICA.png"
+    }
+  },
+  "image#rethink3": {
+    "props": {
+      "src": "https://perfumeriaspigmento.com.ar/media/wysiwyg/Banners/Home/Navidad2019/CAT_CUIDADODELAPIEL.png"
+    }
+  },
+
+  "flex-layout.row#mediosPago":{
+    "children": [
+      "info-card#enviosDomicilio",
+      "info-card#Retiro",
+      "info-card#Cuotas"
+    ]
+  },
+
+  "info-card#enviosDomicilio": {
+    "props": {
+      "imageUrl": "https://perfumeriaspigmento.com.ar/media/wysiwyg/Banners/Home/Navidad2019/CUCARDAS_NAVIDAD_CUCARDA_ENVIO.png",
+      "headline": "Envios a domicilio",
+      "subhead": "Con tu compra superior a $3000 gratis!",
+      "callToActionMode": "button",
+      "callToActionText": "VER MAS",
+      "textPosition": "right"
+    }
+  },
+  "info-card#Retiro": {
+    "props": {
+      "imageUrl": "https://perfumeriaspigmento.com.ar/media/wysiwyg/Banners/Home/Navidad2019/CUCARDAS_NAVIDAD_CUCARDA_PICKUP.png",
+      "headline": "Retiro por Sucursal",
+      "subhead": "Locales habilitados en caba, gba y la plata.",
+      "callToActionMode": "button",
+      "callToActionText": "VER MAS",
+      "textPosition": "right"
+    }
+  },
+  "info-card#Cuotas": {
+    "props": {
+      "imageUrl": "https://perfumeriaspigmento.com.ar/media/wysiwyg/Banners/Home/Navidad2019/CUCARDAS_NAVIDAD_CUCARDA_CUOTAS.png",
+      "headline": "Hasta 12 cuotas sin interes",
+      "subhead": "Con tarjetas visa y mastercard de todos los bancos",
+      "callToActionMode": "button",
+      "callToActionText": "VER MAS",
+      "textPosition": "right"
+    }
+  }
+}
